@@ -1,4 +1,4 @@
-# software-development-tools-and-resources-v1
+# software-development-tools-and-resources-v1 i am sechaba
 - Add your branch checked out from main (git checkout -b yourname)
 - My branch is MajobeKao, hello world!
 
@@ -7,6 +7,7 @@
 - Then run git add . to add the changes to your staging area
 - Then git commit -m "Your commit message" to commit your changes
 - The git push --set-upstream origin yourbranch
+
 ## Frontend
 
 - React (Tshego)
@@ -21,15 +22,10 @@
 
 ## Backend
 - Express (Tats)
-- Node.js (Modise)
-- React (Brent)
-## Backend
-- Express (Tats)
+- SpringBoot (Tshego)
+- MVC (Tshego)
 - Flask(Python) (Brent)
-- React(ThutoMalope)
-
-## Backend
-- Express (Tats)
+- Node.js (Modise)
  - Node.js (ThutoMalope)
 
 ## Devops
@@ -42,23 +38,17 @@
 ## CI/CD
 
 - GitHub Actions (Tats)
+- Jenkins (Itu)
 - Github Actions (Modise)
 
-## LLMs
-- Claude (Tats)
-- Claude (Modise)
-- Github (Brent)
 
 ## LLMs
-- Claude (Tats)
 - Claude, GLM,  (Brent)
-- Gemini (Tats)
-- GitHub Actions (ThutoMalope)
-
-## LLMs
-
 - Ollama (Tshego)
-  -Gemini (Tshego)
+-Gemini (Tshego)
+- Claude (Modise)
 - Claude (Tats)
 - Gemini (Tats)
+- ChatGPT (Itu)
 - Claude (ThutoMalope)
+
