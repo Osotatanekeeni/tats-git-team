@@ -13,6 +13,12 @@
 - React (Tshego)
 - Angular (Tshego)
 
+## Backend
+
+- SpringBoot (Tshego)
+- MVC (Tshego)
+- React (Tats)
+- React (Majobe)
 
 ## Backend
 - Express (Tats)
