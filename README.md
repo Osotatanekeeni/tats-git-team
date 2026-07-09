@@ -1,4 +1,6 @@
 # software-development-tools-and-resources-v1
+- Add your branch checked out from main (git checkout -b yourname)
+- My branch is MajobeKao, hello world!
 
 - Add your branch checked out from main (git checkout -b yourname)
 - Add a tool under any category
