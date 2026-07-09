@@ -14,6 +14,12 @@
 
 - SpringBoot (Tshego)
 - MVC (Tshego)
+- React (Tats)
+- React(ThutoMalope)
+
+## Backend
+- Express (Tats)
+ - Node.js (ThutoMalope)
 
 ## Devops
 
@@ -22,6 +28,7 @@
 ## CI/CD
 
 - GitHub Actions (Tats)
+- GitHub Actions (ThutoMalope)
 
 ## LLMs
 
@@ -29,3 +36,4 @@
   -Gemini (Tshego)
 - Claude (Tats)
 - Gemini (Tats)
+- Claude (ThutoMalope)
