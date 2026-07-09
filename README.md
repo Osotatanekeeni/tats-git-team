@@ -15,6 +15,11 @@
 - SpringBoot (Tshego)
 - MVC (Tshego)
 - React (Tats)
+- React (Modise)
+
+## Backend
+- Express (Tats)
+- Node.js (Modise)
 - React (Brent)
 ## Backend
 - Express (Tats)
@@ -28,12 +33,18 @@
 ## Devops
 
 - Docker (Tats)
+- Docker (Modise)
 - N\A (Brent)
 
 
 ## CI/CD
 
 - GitHub Actions (Tats)
+- Github Actions (Modise)
+
+## LLMs
+- Claude (Tats)
+- Claude (Modise)
 - Github (Brent)
 
 ## LLMs
