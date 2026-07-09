@@ -2,28 +2,20 @@
 
 ## Frontend
 
-- React (Tats)
+- React (Mimi)
 
 ## Backend
 
-- Express (Tats)
+- Express (Mimi)
 
 ## Devops
 
-- Docker (Tats)
+- Docker (Mimi)
 
 ## CI/CD
 
-- GitHub Actions (Tats)
+- GitHub Actions (Mimi)
 
 ## LLMs
 
-- Claude (Tats)
-
-## My Learning Resources
-
-- React (Mimi)
-- TypeScript (Mimi)
-- Firebase (Mimi)
-- Git & GitHub (Mimi)
-- Gemini (Mimi)
+- Claude (Mimi)
