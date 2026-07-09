@@ -5,6 +5,7 @@
 - Then run git add . to add the changes to your staging area
 - Then git commit -m "Your commit message" to commit your changes
 - The git push --set-upstream origin yourbranch
+
 ## Frontend
 
 - React (Tshego)
@@ -16,10 +17,12 @@
 - MVC (Tshego)
 - React (Tats)
 - React(ThutoMalope)
+- Typescript (RelebohileMatsoso)
 
 ## Backend
+
 - Express (Tats)
- - Node.js (ThutoMalope)
+- Node.js (ThutoMalope)
 
 ## Devops
 
@@ -37,3 +40,4 @@
 - Claude (Tats)
 - Gemini (Tats)
 - Claude (ThutoMalope)
+- Copilot (Relebohile Matsoso)
