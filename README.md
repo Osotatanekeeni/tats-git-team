@@ -10,6 +10,11 @@
 ## Backend
 - Express (Tats)
 - Flask(Python) (Brent)
+- React(ThutoMalope)
+
+## Backend
+- Express (Tats)
+ - Node.js (ThutoMalope)
 
 ## Devops
 - Docker (Tats)
@@ -24,3 +29,9 @@
 - Claude (Tats)
 - Claude, GLM,  (Brent)
 - Gemini (Tats)
+- GitHub Actions (ThutoMalope)
+
+## LLMs
+- Claude (Tats)
+- Gemini (Tats)
+- Claude (ThutoMalope)
