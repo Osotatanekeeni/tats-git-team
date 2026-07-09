@@ -18,8 +18,7 @@
 - SpringBoot (Tshego)
 - MVC (Tshego)
 - React (Tats)
-- React(ThutoMalope)
-- Typescript (RelebohileMatsoso)
+- React (Majobe)
 
 ## Backend
 
