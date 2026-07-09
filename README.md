@@ -15,3 +15,4 @@
 
 ## LLMs
 - Claude (Tats)
+- Gemini (Tats)
