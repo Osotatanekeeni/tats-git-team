@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ===== Header ===== */
+.hero {
+  text-align: center;
+  padding: 40px 0 24px;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  background: linear-gradient(90deg, #f05033, #f8b500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero .greeting {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #64748b;
+}
+
+/* ===== Broken banner (hotfix target) ===== */
+.banner {
+  background: repeating-linear-gradient(45deg, #dc2626, #dc2626 12px, #991b1b 12px, #991b1b 24px);
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+/* ===== Stats row ===== */
+.stats {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 32px 0;
+  flex-wrap: wrap;
+}
+
+.stat {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px 28px;
+  text-align: center;
+  min-width: 140px;
+}
+
+.stat .num {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f8b500;
+}
+
+.stat .label {
+  color: #64748b;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== Sections ===== */
+h2 {
+  margin: 48px 0 16px;
+  font-size: 1.5rem;
+  color: #f05033;
+}
+
+/* ===== Team grid ===== */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #f8b500;
+}
+
+.card .emoji {
+  font-size: 2.2rem;
+}
+
+.card h3 {
+  margin: 8px 0 2px;
+  color: #0f172a;
+}
+
+.card .role {
+  color: #f8b500;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.card .fact {
+  color: #64748b;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* ===== Fun facts ===== */
+.facts-list {
+  list-style: none;
+}
+
+.facts-list li {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #f05033;
+  border-radius: 0 8px 8px 0;
+  padding: 12px 18px;
+  margin-bottom: 10px;
+  color: #334155;
+}
+
+footer {
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 64px;
+  font-size: 0.85rem;
+}
