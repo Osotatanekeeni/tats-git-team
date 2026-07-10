@@ -2,6 +2,7 @@ import { team } from "@/lib/team";
 import { facts } from "@/lib/facts";
 import { getGreeting } from "@/lib/greetings";
 import { countTeamMembers, countFacts } from "@/lib/stats";
+import { getGreeting, getEmoji } from "@/lib/greetings";
 
 export default function Home() {
   const hour = new Date().getHours();
