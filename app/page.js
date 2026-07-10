@@ -8,17 +8,15 @@ export default function Home() {
 
   return (
     <main>
-      {/* 🚨 HOTFIX TASK: This broken banner made it to production!
-          Remove it on a branch called: hotfix-remove-broken-banner */}
-      <div className="banner">
-        🚧 MEGA SALE!!! 90% OFF EVERYTHING!!! CLICK HERE!!! 🚧
-        (wait... we don&apos;t even sell anything?)
-      </div>
-
       <div className="hero">
         <h1>ACA Team Hub</h1>
+
         <p className="greeting">
-          {getGreeting(hour)} {getEmoji(hour)}, welcome to your personal hell!
+          {getEmoji(hour)} {getGreeting(hour)}, welcome to the ACA Team Hub!
+        </p>
+
+        <p className="hero-copy">
+          This page brings together the ACA team, a few fun facts, and a hands-on Git and GitHub practice space.
         </p>
       </div>
 
@@ -27,6 +25,7 @@ export default function Home() {
           <div className="num">{countTeamMembers(team)}</div>
           <div className="label">Team members</div>
         </div>
+
         <div className="stat">
           <div className="num">{countFacts(facts)}</div>
           <div className="label">Fun facts</div>
@@ -34,18 +33,31 @@ export default function Home() {
       </div>
 
       <h2>👩‍💻 The Team</h2>
+
       <div className="team-grid">
         {team.map((member) => (
           <div className="card" key={member.name}>
             <div className="emoji">{member.emoji}</div>
+
             <h3>{member.name}</h3>
-            <div className="role">{member.role}</div>
-            <div className="fact">&ldquo;{member.funFact}&rdquo;</div>
+
+            <div className="role">
+              {member.role}
+            </div>
+
+            <div className="fact">
+              &ldquo;{member.funFact}&rdquo;
+            </div>
           </div>
         ))}
       </div>
 
       <h2>💡 Fun Facts</h2>
+
+      <p className="facts-intro">
+        A few quick reminders about coding, Git, and the surprising history behind the tools we use every day.
+      </p>
+
       <ul className="facts-list">
         {facts.map((fact) => (
           <li key={fact}>{fact}</li>

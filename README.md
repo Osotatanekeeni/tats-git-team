@@ -6,7 +6,7 @@ A tiny Next.js website used to practice the **ACA Git Workflow**: feature branch
 
 ```bash
 git clone <REPO_URL>
-cd git-lab
+cd ats-git-team
 npm install
 npm run dev
 ```
