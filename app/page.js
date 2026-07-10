@@ -1,6 +1,6 @@
 import { team } from "@/lib/team";
 import { facts } from "@/lib/facts";
-import { getGreeting } from "@/lib/greetings";
+import { getGreeting, getEmoji } from "@/lib/greetings";
 import { countTeamMembers, countFacts } from "@/lib/stats";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <div className="hero">
         <h1>ACA Team Hub</h1>
         <p className="greeting">
-          {getGreeting(hour)}, welcome to your personal hell!
+           {getEmoji(hour)} {getGreeting(hour)}, welcome to your personal hell!
         </p>
       </div>
 
