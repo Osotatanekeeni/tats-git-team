@@ -18,7 +18,7 @@ export default function Home() {
       <div className="hero">
         <h1>ACA Team Hub</h1>
         <p className="greeting">
-           {getEmoji(hour)} {getGreeting(hour)}, welcome to your personal hell!
+          {getGreeting(hour)} {getEmoji(hour)}, welcome to your personal hell!
         </p>
       </div>
 
