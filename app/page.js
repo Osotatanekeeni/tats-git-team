@@ -8,13 +8,6 @@ export default function Home() {
 
   return (
     <main>
-      {/* 🚨 HOTFIX TASK: This broken banner made it to production!
-          Remove it on a branch called: hotfix-remove-broken-banner */}
-      <div className="banner">
-        🚧 MEGA SALE!!! 90% OFF EVERYTHING!!! CLICK HERE!!! 🚧
-        (wait... we don&apos;t even sell anything?)
-      </div>
-
       <div className="hero">
         <h1>ACA Team Hub</h1>
         <p className="greeting">
