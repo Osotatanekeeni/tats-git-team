@@ -8,15 +8,6 @@ export default function Home() {
 
   return (
     <main>
-      {/* 🚨 HOTFIX TASK: This broken banner made it to production!
-          Remove it on a branch called: hotfix-remove-broken-banner */}
-
-      <div className="banner">
-        🚧 MEGA SALE!!! 90% OFF EVERYTHING!!! 🚧
-        <br />
-        (wait... we don&apos;t even sell anything?)
-      </div>
-
       <div className="hero">
         <h1>ACA Team Hub</h1>
 
@@ -62,6 +53,10 @@ export default function Home() {
       </div>
 
       <h2>💡 Fun Facts</h2>
+
+      <p className="facts-intro">
+        A few quick reminders about coding, Git, and the surprising history behind the tools we use every day.
+      </p>
 
       <ul className="facts-list">
         {facts.map((fact) => (

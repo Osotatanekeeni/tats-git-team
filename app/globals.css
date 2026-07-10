@@ -37,15 +37,13 @@ main {
   color: #64748b;
 }
 
-/* ===== Broken banner (hotfix target) ===== */
-.banner {
-  background: repeating-linear-gradient(45deg, #dc2626, #dc2626 12px, #991b1b 12px, #991b1b 24px);
-  color: #fff;
-  text-align: center;
-  padding: 12px;
-  font-weight: bold;
-  border-radius: 8px;
-  margin: 16px 0;
+.hero-copy {
+  margin-top: 12px;
+  color: #475569;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 }
 
 /* ===== Stats row ===== */
@@ -129,6 +127,12 @@ h2 {
 }
 
 /* ===== Fun facts ===== */
+.facts-intro {
+  color: #475569;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
 .facts-list {
   list-style: none;
 }
